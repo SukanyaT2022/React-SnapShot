@@ -3,35 +3,84 @@ import { Box, Button, Input, Text } from '@chakra-ui/react';
 
 const App = () => {
   return (
+    // big component- snapshot component
     <Box
       display="flex"
       alignItems="center"
       justifyContent="center"
       flexDirection="column"
+      mt={50}
+  
     >
       <Box border="2px solid black">
         <Box>
-          <Text fontSize="5xl" fontWeight="800" fontFamily="sans-serif">
+          <Text
+            fontSize="5xl"
+            fontWeight="800"
+            fontFamily="sans-serif"
+            textAlign="center"
+          >
             SnapShot
           </Text>
         </Box>
 
+
+        {/* searchbox */}
         <Box display="flex">
-          <Input placeholder="Search..." />
+          <Input placeholder="Search..." width="400px" />
 
           <Button
             size="md"
-            height="48px"
+            height="40px"
             width="100px"
             border="2px"
             borderColor="green.500"
           >
-            Button
+            Click
           </Button>
         </Box>
 
-        <Box>
-          <h2>button</h2>
+        {/* 4 button */}
+
+        <Box my="30px" display="flex" justifyContent="space-between">
+          <Button
+            size="md"
+            height="40px"
+            width="100px"
+            border="2px"
+            borderColor="green.500"
+          >
+            Mountains
+          </Button>
+
+          <Button
+            size="md"
+            height="40px"
+            width="100px"
+            border="2px"
+            borderColor="green.500"
+          >
+            Beaches
+          </Button>
+
+          <Button
+            size="md"
+            height="40px"
+            width="100px"
+            border="2px"
+            borderColor="green.500"
+          >
+            Birds
+          </Button>
+          <Button
+            size="md"
+            height="40px"
+            width="100px"
+            border="2px"
+            borderColor="green.500"
+          >
+            Food
+          </Button>
         </Box>
       </Box>
 
