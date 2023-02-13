@@ -97,10 +97,12 @@ const beach = ()=>{
         height="500px"
         width="80%"
         marginTop="20px"
+        margin="auto"
       >
-    <Box >
-        <h2 fontWeight="bold" fontSize="20px">Mountain Pictures</h2>
-      </Box>
+    {/* <Box >
+       <h2>Mountain Pictures</h2>
+        <h2>Mountain Pictures</h2>
+      </Box> */}
 
         <Grid templateColumns="repeat(4, 1fr)" gap={3} placeItems="center">
           <GridItem w="100%" h="150">
@@ -164,7 +166,7 @@ const beach = ()=>{
               w="45px"
             />
           </GridItem>
-          <GridItem w="100%" h="50%">
+          <GridItem w="100%" h="150">
          
             <img
               // style={{ height: '200px', width: '200px' }}
@@ -192,12 +194,13 @@ const beach = ()=>{
         display="grid"
         justifyItems="center"
         height="500px"
-        width="70%"
+        width="80%"
         marginTop="20px"
+        margin="auto"
       >
-  <Box  marginTop="20px">
+  {/* <Box  marginTop="20px">
         <h2 fontWeight="bold" fontSize="20px">Beaches</h2>
-      </Box>
+      </Box> */}
 
 
         <Grid templateColumns="repeat(4, 1fr)" gap={3} placeItems="center">
